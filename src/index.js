@@ -10,7 +10,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
-  uri: 'http://localhost:9000/.netlify/functions/graphql',
+  uri: '/.netlify/functions/graphql',
 });
 
 ReactDOM.render(
